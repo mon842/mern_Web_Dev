@@ -1,0 +1,24 @@
+/* position property
+    static
+    relative
+    absolute
+    fixed */
+
+/* static default position*/
+.red{
+    background-color: aquamarine;
+}
+
+/* relative */
+.red2{
+    background-color: aquamarine;
+    position: relative;
+    right: 100px;
+}
+
+.red3{
+    background-color: rgb(255, 157, 127);
+    position: relative;
+    bottom:  100px;
+}
+/* relative positioning won't effect position of other elements, it will overlap the element and will sit on top of the other element */

@@ -1,0 +1,10 @@
+body{
+    color: black;
+    background-color:lightblue;
+}
+hr{
+    border-style: dotted;
+    color: aliceblue;
+    width: 100px;
+    height: 20px;
+}

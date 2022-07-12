@@ -1,0 +1,36 @@
+/* text-aling: center;   // it will center the elements */
+/* margin:auto; is another way to center the elements */
+
+/* text-align : center; will center all the elements that are not width set */
+
+
+body {
+    background-color: rgb(221, 228, 252);
+    text-align: center;
+}
+h1{
+    width: 10%;  /* centering throught text-aling will not work  if width is disturbed  content */
+    margin:auto;
+}
+
+/* container  */
+.top_container{
+    position: relative;
+
+}
+
+
+
+
+
+
+
+/* clouds */
+.top-cloud{
+    position: absolute;
+    right: 300px;
+
+}
+.bottom-cloud{
+    position: absolute;
+}

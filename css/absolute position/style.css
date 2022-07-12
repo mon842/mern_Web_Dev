@@ -1,0 +1,48 @@
+/* absolute
+it is used to the element which has a parent element and according to the parent element the child element is styled
+if right: 40px----- then the child element is styled right and leaving a space of 40 px between the child element and the parent element's right side
+
+
+it effects the other element
+
+child element will always be styled with respect to the closest parent element ..*/
+body { 
+    padding: 0;
+    margin: 0;
+}
+
+.absolute1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+}
+
+.absolute2{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+.absolute3{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+
+/* adjustment of fixed property is same as absolute property but difference is it will be fixed in the same place irrespective scrolling */
+
+.fixed{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 300px;
+    left: 300px;
+}

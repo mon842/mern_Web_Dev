@@ -1,0 +1,152 @@
+/* text-aling: center;   // it will center the elements */
+/* margin:auto; is another way to center the elements */
+
+/* text-align : center; will center all the elements that are not width set */
+
+/* 16px = 100% = 1em */
+
+body {
+    background-color: rgb(221, 228, 252);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    width: 10%;
+    /* centering throught text-aling will not work  if width is disturbed  content */
+    margin: auto;
+}
+
+h1,
+h2,
+h3 {
+    color: #66BFBF;
+}
+
+hr {
+    width: 5%;
+    border: dotted #eaffea 7px;
+    border-bottom: none;
+}
+
+#name {
+    font-size: 50px;
+    font-weight: normal;
+    line-height: 2;
+}
+
+.skill-row {
+    line-height: 2;
+    width: 80%;
+    margin: auto;
+}
+
+.skill-description {
+    clear: right;
+}
+
+.skill-description2 {
+    clear: left;
+}
+
+.sd {
+    margin-bottom: 20px;
+}
+
+.footer-link {
+    text-decoration: none;
+    margin: 20px;
+    color: #34ced9;
+    font-weight: 600;
+}
+
+/* container  */
+.top_container {
+    position: relative;
+    background-color: rgb(203, 250, 248);
+    padding-top: 100px;
+}
+
+.middle-container {
+    width: 60%;
+    margin: auto;
+}
+
+.bottom-container {
+    padding: 60px;
+    margin-top: 80px;
+    background-color: #9488fc;
+}
+
+
+
+/* image */
+#dp {
+    border-radius: 50%;
+}
+
+#hobbies {
+    border-radius: 50%;
+    height: 40%;
+    position: relative;
+    right: 10%;
+    width: 20%;
+
+    float: left;
+
+}
+
+#skill {
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 40%;
+    position: relative;
+    left: 10%;
+    width: 20%;
+    float: right;
+}
+
+
+/* clouds */
+.top-cloud {
+    position: absolute;
+    right: 60%;
+    
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 64%;
+}
+
+#mnt {
+    width: 50vw;
+}
+
+/* button */
+.btn {
+
+    -webkit-border-radius: 15;
+    -moz-border-radius: 15;
+    border-radius: 15px;
+    text-shadow: 1px 1px 3px #666666;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 18px;
+    background: #34ced9;
+    padding: 8px 15px 8px 15px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #3cfaca;
+    background-image: -webkit-linear-gradient(top, #3cfaca, #34d9aa);
+    background-image: -moz-linear-gradient(top, #3cfaca, #34d9aa);
+    background-image: -ms-linear-gradient(top, #3cfaca, #34d9aa);
+    background-image: -o-linear-gradient(top, #3cfaca, #34d9aa);
+    background-image: linear-gradient(to bottom, #3cfaca, #34d9aa);
+    text-decoration: none;
+}
+
+/* margin :auto  -------- centers the elements . it is easier to use to center */
