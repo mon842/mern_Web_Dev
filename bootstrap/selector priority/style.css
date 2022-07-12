@@ -1,0 +1,11 @@
+div{
+    color:blue;
+}
+#itit{
+    color: yellow;
+}
+.ctit{
+    color: red;
+}
+
+/* priority of inline(writen in html) is more than id and priority of id is more than class and priority of class is more than element */

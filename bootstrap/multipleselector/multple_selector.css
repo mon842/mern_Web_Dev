@@ -1,0 +1,18 @@
+h1, h2{
+    color: brown;
+    background-color: aquamarine;
+}
+
+
+/* hierarchical selector  */
+#title h4{
+    color: antiquewhite;
+    background-color: black;
+}
+/* element.class or element#id means an element has that perticular id or class */
+/* .class1.class2 means that element has 2 classes class1 and class2 */
+
+/* element .class or element #id means an element has a child element with that perticular id or class */
+/* .class1 .class2 means that element(class1) has a child element with that perticular class2  */
+
+/* space between the element and id or class makes the expresssion heirarchy */

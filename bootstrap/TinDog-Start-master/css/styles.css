@@ -1,0 +1,250 @@
+body{
+  font-family: Montserrat;
+}
+
+/* containers
+ */
+
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* colored -section */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: white;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* card */
+.card{
+  text-align: center;
+}
+.row-pad{
+  padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: Montserrat-Bold;
+}
+
+h1 {
+  font-size: 3em;
+  line-height: 1.2;
+}
+h2{
+  font-size: 3em;
+  line-height: 1.2;
+}
+
+/* heading */
+.big-heading{
+  font-family: "Montserrat-Bold", sans-serif;
+  font-size: 3.5em;
+  line-height: 1.5;
+}
+.page-header {
+  font-family: "Oswald", sans-serif;
+  color: white;
+}
+#title {
+  /* z-index: -1; */
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+.phone-img {
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  right:30%;
+  /* z-index: -1; */
+}
+
+/* Navigation-bar */
+.navbar-brand {
+  font-family: "Mochiy Pop P One", sans-serif;
+  color: white;
+  font-size: 2.2em;
+  font-weight: bold;
+  margin-right: 200px;
+}
+.navbar{
+  padding:0 0 5.5rem
+
+}
+.nav-item {
+  padding: 0 10px;
+}
+.nav-link {
+  font-family: Montserrat-Light, sans-ser;
+  font-size: 1.5em;
+}
+.down-btn{
+  margin: 10px;
+}
+
+/* Icon */
+.icon{
+  font-size: 60px;
+  color: #fb6666;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  font-size: 60px;
+  color: #ff4c68;
+  margin-bottom: 1rem;
+}
+/* features */
+
+#features h3{
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+}
+#features p{
+  font-family: "Montserrat-Light";
+  font-weight: lighter;
+  color: #8f8f8f;
+}
+
+/* Features- section */
+#features{
+  padding:7% 12%;
+  position: relative;
+  /* z-index: 2; */
+}
+.feature-box{ 
+  text-align: center;
+  padding:3%;
+}
+.feature-title{
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+/* Testimonial section */
+
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#testimonials{
+  text-align: center;
+  /* background-color:#ef8172 ; */
+  color: white;
+  padding: 10%;
+  font-size: small;
+}
+.testimonial-image{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.carousel-items{
+  padding: 8% 15%;
+}
+/* Press section */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px 20px; 
+}
+
+/* pricing */
+#pricing{
+  padding: 5% 10%;
+}
+.pricing-col{
+  padding:2% 2%;
+  border-radius: 100%;
+}
+.price-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.section-heading{
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* @media<type><feature> */
+
+@media (max-width:770px) {
+  #title{
+    text-align: center;
+  }
+  .phone-img {
+    transform: rotate(0);
+    width: 80%;
+    right:20%;
+    position: static;
+  }
+}
+
+#cta{
+  text-align: center;
+  height: 250px;
+  width: 100%;
+  padding: 5% 0;
+  font-family: Montserrat-Black;
+}
+
+#footer{
+  background-color: #fff;
+  padding: 6% 0;
+  text-align: center;
+  font-family: Montserrat-Black;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #a2b1d3;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #fff;
+  color: #000;
+}
+.fa {
+  padding: 20px;
+  font-size: 50px;
+  width: 40px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+.socials{
+  padding: 2px;
+}
