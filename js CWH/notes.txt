@@ -1,0 +1,15 @@
+DATA TYPES IN JAVASCRIPT:
+
+1) primitive data types
+    a. string
+    b. number 
+    c. boolean
+    d. null
+    e. undefined
+    f. Symbol
+
+2) reference data types:
+    a. arrays
+    b. object literals
+    c. functions
+    d. dates
