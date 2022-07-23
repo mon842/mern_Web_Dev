@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(250, 179, 179);
+
+}
+.cont1{
+    text-align: center;
+    color: red;
+    font-weight: 700;
+    margin: 30px;
+}
+.cont2{
+    color: aliceblue;
+    padding: 50px;
+    margin: auto;
+}
+.form{
+    height: 30px;
+    width: 40%;
+    border: none;
+    margin: 3px;
+    border-radius: 10px;
+    padding: 2px;
+}
